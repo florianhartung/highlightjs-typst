@@ -1,0 +1,5 @@
+<span class="hljs-bullet">+</span> The climate
+<span class="hljs-bullet">  -</span> Temperature
+<span class="hljs-bullet">  -</span> Precipitation
+<span class="hljs-bullet">+</span> The topography
+<span class="hljs-bullet">+</span> The geology

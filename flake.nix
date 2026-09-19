@@ -53,6 +53,10 @@
               includes = [
                 "*.js"
                 "*.md"
+                "*.html"
+              ];
+              excludes = [
+                "dist/*"
               ];
             };
             programs.typstyle.enable = true;

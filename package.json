@@ -19,9 +19,11 @@
     "build": "rollup -c",
     "pretest": "npm run build",
     "test": "mocha",
-    "test-markup": "npm test"
+    "test-markup": "npm test",
+    "serve": "serve",
+    "build-serve": "npm run build && npm run serve",
+    "watch-and-serve-dev": "npm-watch"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/florianhartung/highlightjs-typst.git"
@@ -45,7 +47,12 @@
     "glob": "^11.0.0",
     "highlight.js": "^11.11.1",
     "mocha": "^11.2.2",
+    "npm-watch": "^0.13.0",
     "rollup": "^4.0.2",
+    "serve": "^14.2.6",
     "should": "^13.2.3"
+  },
+  "watch": {
+    "build-serve": "src/languages/typst.js"
   }
 }

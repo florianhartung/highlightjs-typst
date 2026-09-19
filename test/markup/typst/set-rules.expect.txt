@@ -1,0 +1,29 @@
+<span class="hljs-operator">#</span><span class="hljs-keyword">set</span> <span class="hljs-title function_ invoke__">page</span>(
+  <span class="hljs-params">paper</span>: &quot;a6&quot;,
+  <span class="hljs-params">margin</span>: (x: 1.8cm, y: 1.5cm),
+)
+<span class="hljs-operator">#</span><span class="hljs-keyword">set</span> <span class="hljs-title function_ invoke__">text</span>(
+  <span class="hljs-params">font</span>: &quot;New Computer Modern&quot;,
+  <span class="hljs-params">size</span>: 10pt,
+)
+<span class="hljs-operator">#</span><span class="hljs-keyword">set</span> <span class="hljs-title function_ invoke__">par</span>(
+  <span class="hljs-params">justify</span>: true,
+  <span class="hljs-params">leading</span>: 0.52em,
+)
+<span class="hljs-section">
+= Introduction</span>
+In this report, we will explore the
+various factors that influence fluid
+dynamics in glaciers and how they
+contribute to the formation and
+behaviour of these natural structures.
+
+...
+
+<span class="hljs-operator">#</span><span class="hljs-title function_ invoke__">align</span>(<span class="hljs-literal">center</span> + <span class="hljs-literal">bottom</span>)[
+  <span class="hljs-operator">#</span><span class="hljs-title function_ invoke__">image</span>(&quot;glacier.jpg&quot;, <span class="hljs-params">width</span>: 70%)
+
+ <span class="hljs-strong"> *</span>Glaciers form an important
+  part of the earth&#x27;s climate
+  system.<span class="hljs-strong">*
+</span>]
