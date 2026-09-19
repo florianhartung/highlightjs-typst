@@ -1,0 +1,4 @@
+The flow rate of a glacier is given
+by the following equation:
+
+$ Q = rho A v + "time offset" $

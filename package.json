@@ -1,0 +1,51 @@
+{
+  "name": "highlightjs-typst",
+  "version": "0.1.0",
+  "description": "highlight.js syntax definition for Typst language",
+  "type": "module",
+  "main": "dist/typst.cjs",
+  "module": "dist/typst.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/typst.es.js",
+      "require": "./dist/typst.cjs"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "pretest": "npm run build",
+    "test": "mocha",
+    "test-markup": "npm test"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florianhartung/highlightjs-typst.git"
+  },
+  "keywords": [
+    "typst",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "Florian Hartung <me@fhartung.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florianhartung/highlightjs-typst/issues"
+  },
+  "homepage": "https://github.com/florianhartung/highlightjs-typst",
+  "peerDependencies": {
+    "highlight.js": "^11.11.0"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "highlight.js": "^11.11.1",
+    "mocha": "^11.2.2",
+    "rollup": "^4.0.2",
+    "should": "^13.2.3"
+  }
+}
